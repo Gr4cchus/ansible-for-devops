@@ -154,4 +154,4 @@
         name: httpd_can_network_connect
         state: yes
         persistent: yes
-      when: ansible_selinux.status == 'enabled'
+      when: ansible_selinux.status == 'enabled' 
